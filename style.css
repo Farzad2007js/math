@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+.mother {
+  background-image: url("index.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+#btn {
+  margin: 5px;
+}
+
+#txt {
+  margin: 5px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  display: none;
+}
+
+.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gif3 {
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 695px) {
+  .mother {
+    width: 150px;
+    height: 150px;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 493px) {
+  .mother {
+    width: 80px;
+    height: 80px;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .mother {
+    width: 60px;
+    height: 60px;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
