@@ -14,8 +14,8 @@ btn.addEventListener("click" , function(){
            setInterval(frame , 3000);
            function frame(){
             if(window.screen.availWidth<=500){
-                document.getElementById('gif').style.width="8px";
-                document.getElementById('gif').style.height="8px";
+                document.getElementById('gif').style.width="13px";
+                document.getElementById('gif').style.height="13px";
              }
              else{
                 document.getElementById('gif').style.width="40px";
@@ -29,8 +29,8 @@ btn.addEventListener("click" , function(){
         setInterval(frame2 , 3000);
         function frame2(){
             if(window.screen.availWidth<=500){
-                document.getElementById('gif2').style.width="8px";
-                document.getElementById('gif2').style.height="8px";
+                document.getElementById('gif2').style.width="13px";
+                document.getElementById('gif2').style.height="13px";
              }
              else{
                 document.getElementById('gif2').style.width="40px";
@@ -45,8 +45,8 @@ btn.addEventListener("click" , function(){
             setInterval(frame3 , 3000);
             function frame3(){
              if(window.screen.availWidth<=500){
-                document.getElementById('gif3').style.width="10px";
-                document.getElementById('gif3').style.height="10px";
+                document.getElementById('gif3').style.width="13px";
+                document.getElementById('gif3').style.height="13px";
              }
              else{
                 document.getElementById('gif3').style.width="40px";
